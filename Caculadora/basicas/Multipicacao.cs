@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Caculadora.basicas
 {
-    public class Soma
+    public class Multipicacao
     {
-        public double Calcular(double valor1, double valor2)
+        public double Calcular(double multiplicando, double multipicador)
         {
-            return valor1 + valor2;
+            return multiplicando * multipicador;
         }
     }
 }

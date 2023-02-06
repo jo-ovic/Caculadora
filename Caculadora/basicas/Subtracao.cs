@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Caculadora.basicas
 {
-    internal class Multipicação
+    public class Subtracao
     {
+        public double Calcular(double valor1, double valor2)
+        {
+            return valor1 - valor2;
+        }
     }
 }
